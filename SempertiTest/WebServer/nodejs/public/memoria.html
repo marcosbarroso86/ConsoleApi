@@ -1,0 +1,112 @@
+<section>
+	<div class="row">
+		<div class="col-lg-12 col-md-6">
+			<div class="page-header">
+					<h1>Memory monitoring <small>features and processes</small></h1>
+			</div>	
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-md-4" >
+			<div class="panel">
+				<div class="panel-body color4">
+					<div class="icon-stats-dots" style="display:inline-block">
+						
+					</div>
+					<div class="data-content"> 
+						<h1>{{freePhysicalMemory}}</h1>
+						
+					</div>
+						
+				</div>
+				<div class="panel-footer">
+					<p>Free Physical Memory</p>
+				</div>
+			</div>		
+		</div>
+
+		<div class="col-xs-12 col-md-4" >
+			<div class="panel">
+				<div class="panel-body color2">
+					<div class="icon-stack" style="display:inline-block">
+						
+					</div>
+					<div class="data-content"> 
+						<h1>{{freeSpaceInPagingFiles}}</h1>
+						
+					</div>
+						
+				</div>
+				<div class="panel-footer">
+					<p>Free Space In Paging Files</p>
+				</div>
+			</div>		
+		</div>
+
+		<div class="col-xs-12 col-md-4" >
+			<div class="panel">
+				<div class="panel-body color3">
+					<div class="icon-books" style="display:inline-block">
+						
+					</div>
+					<div class="data-content"> 
+						<h1>{{freeVirtualMemory}}</h1>
+						
+					</div>
+						
+				</div>
+				<div class="panel-footer">
+					<p>Free Virtual Memory</p>
+				</div>
+			</div>		
+		</div>		
+	</div>
+
+
+	<div class="row">
+
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="panel">
+					<div class="panel-heading color1">
+						<h1>Memory capabilities<span class="icon-stats-bars2"></span></h1>
+					</div>
+
+					<div class="panel-body">
+							<table class="table-responsive">  
+								<tbody>
+											<tr><td><p>Max Number Of Processes</p></td>
+											<td><p>{{maxNumberOfProcesses}}<p></td></tr>
+											<tr><td><p>Max Process Memory Size</p></td>
+											<td><p>{{maxProcessMemorySize}}<p></td></tr>
+											<tr><td><p>Number Of Processes<p></td>
+											<td><p>{{numberOfProcesses}}<p></td></tr> 											
+								</tbody>
+					</table>
+				</div>
+			</div>		
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="panel">
+					<div class="panel-heading color1">
+						<h1>Total Memory<span class="icon-stats-bars2"></span></h1>
+					</div>
+
+					<div class="panel-body">
+							<table class="table-responsive">  
+								<tbody>
+											<tr><td><p>Total Virtual Memory Size</p></td>
+											<td><p>{{totalVirtualMemorySize}}<p></td></tr>
+											<tr><td><p>Total Visible Memory Size</p></td>
+											<td><p>{{totalVisibleMemorySize}}<p></td></tr>
+											<tr><td><p>Size Stored In Paging Files</p></td>
+											<td><p>{{sizeStoredInPagingFiles}}<p></td></tr>									
+								</tbody>
+					</table>
+				</div>
+			</div>		
+		</div>
+	</div>		
+</section>	
+

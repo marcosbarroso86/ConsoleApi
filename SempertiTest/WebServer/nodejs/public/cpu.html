@@ -1,0 +1,97 @@
+<section>
+	<div class="row">
+		<div class="col-lg-12 col-md-6">
+			<div class="page-header">
+					<h1>CPU Performance <small>features and processes</small></h1>
+			</div>	
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-5 col-md-4" >
+			<div class="panel">
+				<div class="panel-body color1">
+					<div class="icon-stats-bars" style="display:inline-block">
+						
+					</div>
+					<div class="data-content"> 
+						<h1>{{loadPercentage}}%</h1>
+						
+					</div>
+						
+				</div>
+				<div class="panel-footer">
+					<p>CPU USAGE</p>
+				</div>
+			</div>		
+		</div>
+	
+
+		<div class="col-xs-12 col-sm-7 col-md-8">
+			<div class="panel">
+					<div class="panel-heading color1">
+						<h1>Specifications<span class="icon-stats-bars2"></span></h1>
+					</div>
+
+					<div class="panel-body">
+							<table class="table-responsive">  
+								<tbody>
+											<tr><td><p>Name</p></td>
+											<td><p>{{name}}<p></td></tr>
+											<tr><td><p>Caption</p></td>
+											<td><p>{{caption}}<p></td></tr>
+											<tr><td><p>CurrentClockSpeed<p></td>
+											<td><p>{{currentClockSpeed}}<p></td></tr> 
+											<tr><td><p>MaxClockSpeed<p></td>
+											<td><p>{{maxClockSpeed}}</p></td></tr> 	
+											<tr><td><p>Processor Id<p></td>
+											<td><p>{{processorId}}</p></td></tr>																								 																		
+								</tbody>
+						</table>
+					</div>
+				</div>		
+			</div>
+	</div>
+
+
+	<div class="row">
+			<div class="col-xs-12 col-sm-8 col-md-4" >
+			<div class="panel">
+				<div class="panel-heading color1">
+					<h3>Processes Running<span class="icon-cogs"></span></h3>
+
+				</div>
+
+				<div class="panel-body panel-body-static ">
+				<p style="font-weight: bold">The following list shows the active processes in the operating system with their respective characteristics as the name, PID, size etc.</p>
+					<hr>
+					<ul ng-repeat="item in list">
+						<li>{{item}}</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			<div class="col-xs-12 col-sm-7 col-md-8">
+			<div class="panel">
+					<div class="panel-heading color1">
+						<h1>Another Features<span class="icon-stats-bars2"></span></h1>
+					</div>
+
+					<div class="panel-body">
+							<table class="table-responsive">  
+								<tbody>
+											<tr><td><p>Current Voltage</p></td>
+											<td><p>{{currentVoltage}}<p></td></tr>
+											<tr><td><p>L2 cache size</p></td>
+											<td><p>{{L2CacheSize}}<p></td></tr>
+											<tr><td><p>Manufacturer<p></td>
+											<td><p>{{manufacturer}}<p></td></tr> 								
+											<tr><td><p>Address Width<p></td>
+											<td><p>{{addressWidth}}</p></td></tr>																		
+								</tbody>
+						</table>
+					</div>
+				</div>		
+			</div>
+	<div>		
+</section>	

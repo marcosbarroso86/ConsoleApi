@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Oct 17 06:38:24 ART 2016
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=ReportService.jar
+manifest.mergeall=true
+manifest.mainclass=com.app.service.Service
+manifest.file=config\\MANIFEST.MF
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

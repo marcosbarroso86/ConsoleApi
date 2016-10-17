@@ -1,0 +1,87 @@
+.color1 {
+	background: #1abc9c;
+	color: white;
+}
+
+.color2{
+	background: #e74c3c;
+	color: white
+}
+
+.color3{
+	background: #3498db;
+	color: white;
+}
+.color4{
+	background:#f39c12;
+	color: white;
+}
+.color5{
+	background: #f1c40f;
+	color: white;
+
+}
+
+p {
+	font: bold;
+}
+
+.stayLeft {
+	float: left;
+}
+
+.icon-stats-bars2 , .icon-cogs , .icon-sphere  {
+	display: inline-block;
+	font-size: 40px;
+	float: right;
+	
+}
+.icon-stats-bars , .icon-stats-dots , .icon-stack , .icon-books{
+	display: inline-block;
+	color: white;
+	font-size: 78px;
+	float: left;
+}
+
+.data-content {
+	color: white;
+	font-size: 120px;
+	float: right;
+	margin-right: 5px;
+
+}
+
+table td {
+	vertical-align: center;
+	margin: auto;
+
+}
+
+table td p {
+	margin-left: 15px;
+	font-size: 15px ;
+}
+
+table tr td:first-child {
+	font-weight: bold;
+}
+
+table tr td:ntd-child(2) {
+		text-align: right;
+}
+
+.panel-body-static {
+	overflow: scroll;
+	height: 200px; 
+}
+
+@media (min-width: 768px){
+	.panel-body-static {
+	height: 400px; 
+}	
+}
+
+ul li {
+	list-style: none;
+
+}
